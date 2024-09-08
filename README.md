@@ -1,8 +1,10 @@
-<h1>1121-data-visualization</h1>
+<h1>1131-DVVA</h1>
 <br/>
-NYCU 112上 535511 資料視覺化與視覺分析 Data Visualization and Visual Analytics
+NYCU 113上 535511 資料視覺化與視覺分析 Data Visualization and Visual Analytics
 <br/>
 <h3>Homeworks</h3>
+<br/>
+[Homework 1 iris_scatter](http://aa721fffd6e5ca51.vis.lab.djosix.com:2024/)
 <br/>
 <h3>Final Project</h3>
 <br/>
