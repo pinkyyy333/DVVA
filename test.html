@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinky's hw1</title>
+    <style>
+        .axis-container {
+            display: flex; /* 使用 Flexbox 將 X 軸和 Y 軸並排顯示 */
+            justify-content: space-between; /* 使兩個軸的區域有些間距 */
+            margin-bottom: 20px; /* 添加一些底部邊距 */
+        }
+        fieldset {
+            width: 45%; /* 控制兩個軸的區域寬度 */
+        }
+    </style>
+</head>
+<body style="text-align: left;">
+    <h1>Homework 1 iris_scatter</h1>
+    <br/>
+    <br/>
+    <!-- Create a div where the graph will take place -->
+    <div id="my_dataviz"></div>
+
+    <!-- 將X軸和Y軸的選項並排顯示 -->
+    <div class="axis-container">
+        <fieldset>
+            <legend>X axis</legend>
+            <div>
+              <input type="radio" id="X_sepal_length" name="X_axis" value="sepal length" checked />
+              <label for="X_sepal_length">sepal length</label>
+            </div>
+            <div>
+              <input type="radio" id="X_sepal_width" name="X_axis" value="sepal width" />
+              <label for="X_sepal_width">sepal width</label>
+            </div>
+            <div>
+              <input type="radio" id="X_petal_length" name="X_axis" value="petal length" />
+              <label for="X_petal_length">petal length</label>
+            </div>
+            <div>
+              <input type="radio" id="X_petal_width" name="X_axis" value="petal width" />
+              <label for="X_petal_width">petal width</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Y axis</legend>
+            <div>
+              <input type="radio" id="Y_sepal_length" name="Y_axis" value="sepal length"/>
+              <label for="Y_sepal_length">sepal length</label>
+            </div>
+            <div>
+              <input type="radio" id="Y_sepal_width" name="Y_axis" value="sepal width" checked />
+              <label for="Y_sepal_width">sepal width</label>
+            </div>
+            <div>
+              <input type="radio" id="Y_petal_length" name="Y_axis" value="petal length" />
+              <label for="Y_petal_length">petal length</label>
+            </div>
+            <div>
+                <input type="radio" id="Y_petal_width" name="Y_axis" value="petal width" />
+                <label for="Y_petal_width">petal width</label>
+              </div>
+        </fieldset>
+    </div>
+
+    <hr>
+    <div class="footer" style="font-size: medium; color: blue;">
+        <p>Name: 蕭佳蘋</p>
+        <p>Student ID: 111704035</p>
+    </div>
+</body>
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+</html>
