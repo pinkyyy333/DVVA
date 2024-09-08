@@ -1,5 +1,5 @@
 <h1>1131-DVVA</h1>
-NYCU 113上 535511 資料視覺化與視覺分析 Data Visualization and Visual Analytics
+NYCU 113上 535650 資料視覺化與視覺分析 Data Visualization and Visual Analytics
 <br/>
 <h3>Homeworks</h3>
 <ul>
